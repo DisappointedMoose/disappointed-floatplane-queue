@@ -33,7 +33,10 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "disappointed-floatplane-queue@disappointed.moose"
+      "id": "disappointed-floatplane-queue@disappointed.moose",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
