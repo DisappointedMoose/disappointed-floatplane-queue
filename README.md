@@ -1,4 +1,4 @@
-# Disappointed Floatplane Queue
+# <img src="./assets/icon-48.png" alt="Disappointed Floatplane Queue icon" width="48" height="48"> Disappointed Floatplane Queue
 
 [![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-FF7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/firefox/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
