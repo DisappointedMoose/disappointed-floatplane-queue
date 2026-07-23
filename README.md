@@ -1,11 +1,8 @@
 # <img src="./assets/icon-48.png" alt="Disappointed Floatplane Queue icon" width="48" height="48"> Disappointed Floatplane Queue
 
-[![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-FF7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/firefox/)
+[![Mozilla Add-on](https://img.shields.io/amo/v/disappointed-floatplane-queue.svg)](https://addons.mozilla.org/de/firefox/addon/disappointed-floatplane-queue/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Manifest V3](https://img.shields.io/badge/manifest-v3-blue.svg)](./manifest.json)
-<!-- TODO: once published on AMO, replace/extend with a live badge, e.g.
-[![Mozilla Add-on](https://img.shields.io/amo/v/<addon-slug>.svg)](https://addons.mozilla.org/firefox/addon/<addon-slug>/)
--->
 
 A lightweight Firefox/Chrome browser extension that adds a watch queue
 (playlist) with autoplay to [floatplane.com](https://www.floatplane.com/).
@@ -41,13 +38,19 @@ external dependency involved.
 
 ## Installation
 
-This project isn't (yet) published on the Firefox Add-ons store or the
-Chrome Web Store. In the meantime it can be installed manually.
+### Firefox (from addons.mozilla.org)
 
-<!-- TODO: replace with real store links once published
-- **Firefox Add-ons (AMO):** <link>
-- **Chrome Web Store:** <link>
--->
+The easiest way to install on Firefox is through the official listing on
+addons.mozilla.org (AMO):
+
+**[Disappointed Floatplane Queue on AMO](https://addons.mozilla.org/de/firefox/addon/disappointed-floatplane-queue/)**
+
+Click **Add to Firefox** on that page — this gives you automatic updates and
+doesn't require developer mode or manual packaging.
+
+This project isn't (yet) published on the Chrome Web Store. In the meantime
+it can be installed manually there, or on Firefox as a temporary/unpacked
+add-on if you want to run from source.
 
 ### Firefox (temporary install)
 
@@ -57,11 +60,13 @@ Chrome Web Store. In the meantime it can be installed manually.
 4. Select the `manifest.json` file in the repository.
 
 Note that temporary add-ons are removed when Firefox is closed and need to be
-reloaded each session. For a persistent install, package it yourself (see
-[Building](#building)) and install the resulting `.zip` through
-`about:addons` → gear icon → **Install Add-on From File…** (this requires
-Firefox to allow unsigned extensions, e.g. Firefox Developer Edition/Nightly,
-or signing it via [addons.mozilla.org](https://addons.mozilla.org/)).
+reloaded each session. For a persistent install without going through AMO,
+package it yourself (see [Building](#building)) and install the resulting
+`.zip` through `about:addons` → gear icon → **Install Add-on From File…**
+(this requires Firefox to allow unsigned extensions, e.g. Firefox Developer
+Edition/Nightly). For a normal release build of Firefox, installing
+[from AMO](#firefox-from-addonsmozillaorg) is the simplest option since the
+add-on is already signed there.
 
 ### Chrome / Chromium-based browsers (unpacked)
 
